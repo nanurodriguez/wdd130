@@ -48,3 +48,6 @@ footer {
     border-top: 1px solid #0000;
     text-align: center;
 }
+main {
+    max-width: 200px;
+}
