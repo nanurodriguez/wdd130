@@ -23,7 +23,7 @@ img {
     text-align: center;
 }
 p {
-    padding: 0;
+    padding: 0px;
 }
 
 aside {
@@ -34,7 +34,6 @@ aside {
     background-color: #eeeeee;
     color: #111111;
     text-align: center;
-
 }
 aside img {
     width: 200px;
