@@ -8,16 +8,16 @@ div {
     margin: auto;
 }
 nav {
-    background-color: steelblue;
+    background-color: rgba(121, 54, 30, 0.296);
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: rgb(14, 2, 2);
     display: block;
     padding: 20px;
 }
 h1{
-    color: rgb(8, 76, 133);
+    color: rgba(161, 70, 14, 0.847);
 }
 img {
     width: 150px;
@@ -29,6 +29,7 @@ img {
 }
 p {
     padding: 0;
+    text-align: center;
 }
 
 aside {
@@ -42,6 +43,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float:right;
 }
 footer {
     margin-top: 10px;
@@ -55,7 +57,7 @@ main {
 .box{
     margin: 1rem;
     padding: 1rem;
-    background-color: aquamarine;
-    border: 1px solid rgb(121, 180, 228);
-    color: #f7efef;
+    background-color:rgba(213, 154, 118, 0.644);
+    border: 1px solid rgb(228, 196, 121);
+    color: #4e1a0b;
 }
