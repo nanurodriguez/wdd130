@@ -22,14 +22,14 @@ h1{
 img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(121, 180, 228);
+    border: 1px solid rgb(26, 21, 12);
     padding: 2px;
     box-shadow: 0 0 30px gray;
     text-align: center;
 }
 p {
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 aside {
@@ -51,7 +51,7 @@ footer {
     text-align: center;
 }
 main {
-    max-width: 700px;
+    max-width: 600px;
 }
 /* Class Selectors */
 .box{
