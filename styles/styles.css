@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div {
     width: 1024px; 
     margin: auto;
@@ -28,11 +33,6 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(121, 180, 228);
-    padding: 1rem;
-    background-color: #eeeeee;
-    color: #111111;
     text-align: center;
 }
 aside img {
@@ -50,4 +50,12 @@ footer {
 }
 main {
     max-width: 200px;
+}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    border: 1px solid rgb(121, 180, 228);
+    color: #f7efef;
 }
