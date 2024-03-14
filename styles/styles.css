@@ -17,7 +17,7 @@ nav a {
     padding: 20px;
 }
 h1{
-    color: rgba(161, 70, 14, 0.847);
+    color: rgba(75, 33, 7, 0.882);
 }
 img {
     width: 150px;
@@ -51,7 +51,7 @@ footer {
     text-align: center;
 }
 main {
-    max-width: 200px;
+    max-width: 700px;
 }
 /* Class Selectors */
 .box{
