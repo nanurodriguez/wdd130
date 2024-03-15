@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 div {
-    width: 1024px; 
+    width: 1000px; 
     margin: auto;
 }
 nav {
@@ -60,4 +60,10 @@ main {
     background-color:rgba(213, 154, 118, 0.644);
     border: 1px solid rgb(228, 196, 121);
     color: #4e1a0b;
+}
+aside h2 {
+    position: absolute;
+    top: 50;
+    left: 360px;
+    color:white;
 }
