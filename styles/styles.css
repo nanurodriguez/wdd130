@@ -63,7 +63,7 @@ main {
     color: #4e1a0b;
 }
 aside h2 {
-    position: relative;
+    position:absolute;
     top: 47px;
     left: 70px;
     color:white;
