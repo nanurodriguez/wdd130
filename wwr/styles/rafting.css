@@ -3,7 +3,6 @@
  body {
     font-family: var(--paragraph-font);
 }
-
 :root {
     --primary-color: #ffffff;
     --secondary-color: #3b413c;
@@ -15,11 +14,11 @@
 
     --nav-background-color: #XXXXXX;
     --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
+    --nav-hover-link-color: #daf0ee;
     --nav-hover-background-color: #XXXXXX;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -29,13 +28,10 @@ header {
     background-color: var(--accent1-color);
 }
 
-p {
-    padding: 25px;
-}
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     display: flex;
 }
 
@@ -54,20 +50,56 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-
-.hero {
-    opacity:0.6;
-
+.header-flex {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.rafting {
+    margin-bottom: 50px;
+    opacity:0.8;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
 }
 
 article {
-    margin: 20px;
-    width: auto;
-    height: auto;
+    margin-left: 0%;
     float:right;
-    position: absolute;
-
+    display: flex;
+    align-items: left;
+    justify-content: left;
 }
 h1 {
     position: absolute;
+}
+h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p1 {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.box-adventure {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-images {
+    display: flex;
 }
