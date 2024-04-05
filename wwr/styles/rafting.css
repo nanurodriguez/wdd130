@@ -103,3 +103,10 @@ main {
 .box-images {
     display: flex;
 }
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    align-content: end;
+    justify-items: flex-end;
+}
