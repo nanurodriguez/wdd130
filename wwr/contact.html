@@ -53,6 +53,39 @@
                     </figure>
                 </div>
             </section>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for ="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for ="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Let us know what you think</legend>
+                    <label for ="service">What can we do for you?</label>
+                    <div class="column1">
+                        <select id="service" name="service">
+                            <option value=""> select an option...</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="reservation">Reservation Question</option>
+                            <option value="website">Website Suggestion</option>
+                        </select>
+                    </div>   
+                    <label for="feedback">Talk to Us</label>
+                    <textarea id="feedback" name="feedback" rows="5" placeholder="Add any questions or concerns here..."></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Sign me Up!</legend>
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes, no">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
         </main>
         <footer>
             <p>©️2024 Get Wild | Nancy Bell</p>
