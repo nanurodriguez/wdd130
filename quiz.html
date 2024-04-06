@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Building a Form"/>
+    <meta name="author" content="Nancy Bell" />
+    <title>"WDD 130- Nancy Bell | HTML Quiz Form"</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+  </head>
+
+  <body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <div class="Q1- Quiz1">
+                    <label for ="Q1">What is an HTML Element?</label>
+                </div>
+                <div>
+                    <input type="text" id="Q1" name="Q1">
+                </div>
+                <div class="Q2- Quiz2">
+                  <label for ="Q2"> What is an HTML attribute?</label>
+                </div>
+                <div>
+                  <textarea id="text" name="Q2" rows="5"></textarea>
+                </div>
+                <div class="Q3- Quiz3">
+                <label for ="Q3-Selection">What is one of the CSS Font Styles?</label>
+                <div class="selection">
+                  <select id="Q3" name="Q3">
+                    <option value="" selected disabled> Choose One ...</option>
+                    <option value="Bold Font">Bold Font</option>
+                    <option value="Oblique">Oblique</option>
+                    <option value="Cursive">Cursive</option>
+                    <option value="Writting">Writting</option>
+                    <option value="Other">Other</option> 
+                  </select>
+                </div>
+                </div>
+                <div class="Q4-Quiz4">
+                <label for="Q4">What is the height given in this declaration?</label>
+                </div>
+                <div>
+                <img src="images/Quiz.png" alt="Height,Width and background color exaple image" width="300">
+                </div>
+                <div>
+                <input type="number" id="Q4" name="Q4">
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+      
+    <footer>
+      <p>©️2024 | Basic HTML and CSS Quiz | Nancy Bell </p>
+    </footer>
+  </body>
+  <!--Last modified 03/28/2024-->
+</html>
