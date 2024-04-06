@@ -24,7 +24,7 @@
                 <img src="images/hero.jpg" alt="rafting image" width=100% opacity=80%>
             </div>
             <article>
-                <img src="images/logo.png" alt="Get Wild Rafting Website Logo" width="250">
+                <img src="images/logo.png" alt="Get Wild Rafting Website Logo" class="img-logo">
                 <div class="p1">
                     <h2>Get Wild Contact Information</h2>
                     <p>Address: 100 High St NE, Salem, OR 97301 </p>
@@ -60,33 +60,44 @@
                             <legend>Contact Information</legend>
                                 <div class="form-item column2">
                                     <label for ="fullname">Full Name:</label>
+                                </div>
+                                <div>
                                     <input type="text" id="fullname" name="fullname">
                                 </div>
                                 <div class="form-item column2">
                                     <label for ="useremail">Email:</label>
+                                </div>
+                                <div>
                                     <input type="email" id="useremail" name="useremail">
                                 </div>
                         </fieldset>
                         <fieldset>
                             <legend>Let us know what you think</legend>
-                            <label for ="service">What can we do for you?</label>
+                            <div>
+                                <label for ="service">What can we do for you?</label>
+                            </div>
                             <div class="column1">
                                 <select id="service" name="service">
                                 <option value=""> select an option...</option>
                                 <option value="general">General Inquiry</option>
                                 <option value="reservation">Reservation Question</option>
                                 <option value="website">Website Suggestion</option>
-                            </div>   
-                            <label for="feedback">Talk to Us</label>
-                            <textarea id="feedback" name="feedback" rows="5" placeholder="Add any questions or concerns here..."></textarea>
+                            </div>
+                            <div>   
+                                <label for="feedback">Talk to Us</label>
+                                <textarea id="feedback" rows="5" placeholder="Add any questions or concerns here..."></textarea>
+                            </div>
                         </fieldset>
                         <fieldset>
                             <legend>Sign me Up!</legend>
-                            <input type="checkbox" id="newsletter" name="newsletter" value="yes, no">
-                            <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                            <div class="newsletter">                            
+                                <input type="checkbox" id="newsletter" name="newsletter" value="yes, no">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                            </div>
                         </fieldset>
                             <button type="submit">Submit</button>
-                        </form>
+                    </form>
+                </div>
             </article>
         </main>
         <footer>

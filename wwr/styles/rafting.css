@@ -96,6 +96,7 @@ main {
 }
 
 .box-adventure {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -109,4 +110,81 @@ main {
     align-items: end;
     align-content: end;
     justify-items: flex-end;
+}
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1px;
+    border: 1px solid navy;
+    border-radius: 0.5rem;
+    background-color: azure;
+    display: grid;
+    grid-auto-rows: minmax(10px, auto);
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1.5rem;
+    border: 1px solid royalblue;
+    padding: 1.5rem;
+}
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+label, input, button, select {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    color: navy;
+}
+select{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 45px;
+    width: auto;
+}
+input[type=checkbox] {
+    width:22px;
+    height:22px;
+    vertical-align: bottom;
+    text-align: center;
+}
+button {
+    margin: 1rem;
+    background-color: azure;
+    color: gray;
+    border:lab(from color l a b);
+    border-radius: 1rem;
+    border-color: blue;
+    padding: 0.1rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: aqua;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column1 {
+    display: grid;
+    align-items: left;
+}
+
+.img-logo {
+    width: auto;
+    height: 350px;
 }
