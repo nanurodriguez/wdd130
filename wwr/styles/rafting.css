@@ -143,7 +143,7 @@ figcaption {
     background-color: azure;
     display: grid;
     grid-auto-rows: minmax(10px, auto);
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
