@@ -80,8 +80,6 @@ article {
     margin-left: 0%;
     float:right;
     display: flex;
-    align-items: left;
-    justify-content: left;
 }
 h1, h3 {
     position: absolute;
