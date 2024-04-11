@@ -217,7 +217,6 @@ button:hover {
 }
 .column1 {
     display: grid;
-    align-items: left;
 }
 
 .img-logo {
