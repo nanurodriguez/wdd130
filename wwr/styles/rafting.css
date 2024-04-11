@@ -186,7 +186,7 @@ label {
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
-    color: navy;
+    color: rgb(20, 62, 28);
 }
 select{
     text-align: center;
@@ -206,12 +206,12 @@ button {
     color: gray;
     border:lab(from color l a b);
     border-radius: 1rem;
-    border-color: blue;
+    border-color: rgb(32, 172, 22);
     padding: 0.1rem;
     font-size: 1.2rem;
 }
 button:hover {
-    background-color: aqua;
+    background-color: rgb(103, 182, 24);
 }
 .form-item {
     display: grid;
