@@ -204,7 +204,7 @@ button {
     margin: 1rem;
     background-color: azure;
     color: gray;
-    border:lab(from color l a b);
+    border:gray;
     border-radius: 1rem;
     border-color: rgb(32, 172, 22);
     padding: 0.1rem;
